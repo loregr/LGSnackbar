@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LGSnackbar</string>
+    <string name="theme">Theme</string>
+    <string name="show_an_action">Show an action</string>
+    <string name="success">success</string>
+    <string name="warning">warning</string>
+    <string name="error">error</string>
+    <string name="info">info</string>
+    <string name="custom">custom single snackbar</string>
+
+    <string-array name="themes_array">
+        <item>Shine</item>
+        <item>Material</item>
+        <item>Retro</item>
+        <item>Custom</item>
+    </string-array>
+</resources>

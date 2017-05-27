@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:elevation="4dp"
+        android:background="@android:color/white"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="@dimen/default_margin"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/theme"
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+
+        <Switch
+            android:id="@+id/action_switch"
+            android:padding="@dimen/default_margin"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/show_an_action" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/default_margin"
+            android:layout_marginRight="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_height="wrap_content">
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/show_success_btn"
+                android:layout_width="match_parent"
+                android:textAllCaps="true"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                app:fb_defaultColor="@color/green1"
+                app:fb_textSize = "14sp"
+                app:fb_radius="24dp"
+                app:fb_text="@string/success"
+                app:fb_textColor="@android:color/white"
+                />
+
+            <Space
+                android:layout_width="@dimen/default_margin"
+                android:layout_height="wrap_content" />
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/show_warning_btn"
+                android:layout_width="match_parent"
+                android:textAllCaps="true"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                app:fb_defaultColor="@color/green2"
+                app:fb_textSize = "14sp"
+                app:fb_radius="24dp"
+                app:fb_text="@string/warning"
+                app:fb_textColor="@android:color/white"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/default_margin"
+            android:layout_marginRight="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginBottom="32dp"
+            android:layout_height="wrap_content">
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/show_error_btn"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:textAllCaps="true"
+                android:layout_height="48dp"
+                app:fb_defaultColor="@color/green3"
+                app:fb_textSize = "14sp"
+                app:fb_radius="24dp"
+                app:fb_text="@string/error"
+                app:fb_textColor="@android:color/white"
+                />
+
+            <Space
+                android:layout_width="@dimen/default_margin"
+                android:layout_height="wrap_content" />
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/show_info_btn"
+                android:layout_width="match_parent"
+                android:textAllCaps="true"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                app:fb_defaultColor="@color/green4"
+                app:fb_textSize = "14sp"
+                app:fb_radius="24dp"
+                app:fb_text="@string/info"
+                app:fb_textColor="@android:color/white"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/show_custom_btn"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="32dp"
+        android:textAllCaps="true"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_height="48dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_gravity="right"
+        app:fb_defaultColor="@color/colorPrimaryDark"
+        app:fb_textSize = "14sp"
+        app:fb_radius="24dp"
+        app:fb_text="@string/custom"
+        app:fb_textColor="@android:color/white"
+        />
+
+
+</LinearLayout>

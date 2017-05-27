@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#106376</color>
+    <color name="colorPrimaryDark">#0C5872</color>
+    <color name="colorAccent">#FCCE30</color>
+
+    <color name="green1">#126978</color>
+    <color name="green2">#2C9987</color>
+    <color name="green3">#74BC90</color>
+    <color name="green4">#A2D997</color>
+    <color name="green5">#C5F19D</color>
+
+    <!--CUSTOM THEME-->
+    <color name="successCustom">#00977C</color>
+    <color name="warningCustom">#E99300</color>
+    <color name="errorCustom">#D42C26</color>
+    <color name="infoCustom">#1E74B4</color>
+    <color name="actionSuccessCustom">#7CFF88</color>
+    <color name="actionWarningCustom">#FBCF7F</color>
+    <color name="actionErrorCustom">#FCA47D</color>
+    <color name="actionInfoCustom">#74FEF1</color>
+    
+</resources>

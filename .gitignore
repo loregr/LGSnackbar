@@ -1,0 +1,26 @@
+*.iml
+.gradle
+/local.properties
+/build
+/captures
+.externalNativeBuild
+.gradle/*
+.idea/*
+*.iml
+lgsnackbar/build/*
+lgsnackbar/lgsnackbar.iml
+example/build/*
+example/example.iml
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+local.properties*
+gradle.properties*
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SnackbarWrapperTheme" parent="@style/Theme.AppCompat">
+        <!--Insert customization here-->
+    </style>
+</resources>

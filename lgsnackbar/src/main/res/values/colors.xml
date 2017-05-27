@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--DEFAULTS-->
+    <color name="defaultBgColor">#323232</color>
+    <color name="defaultActionColor">#19B491</color>
+
+
+    <!--MATERIAL-->
+    <color name="successMaterial">#4CAF50</color>
+    <color name="warningMaterial">#FFC107</color>
+    <color name="errorMaterial">#F44336</color>
+    <color name="infoMaterial">#2196F3</color>
+    <color name="actionSuccessMaterial">#FFC107</color>
+    <color name="actionWarningMaterial">#4CAF50</color>
+    <color name="actionErrorMaterial">#FFC107</color>
+    <color name="actionInfoMaterial">#FFC107</color>
+
+    <!--RETRO-->
+    <color name="successRetro">#88D8B0</color>
+    <color name="warningRetro">#FFCC5C</color>
+    <color name="errorRetro">#FF6F69</color>
+    <color name="infoRetro">#8FD4D9</color>
+    <color name="actionSuccessRetro">#bbffffff</color>
+    <color name="actionWarningRetro">#bbffffff</color>
+    <color name="actionErrorRetro">#bbffffff</color>
+    <color name="actionInfoRetro">#bbffffff</color>
+
+    <!--SHINE-->
+    <color name="successShine">#36CD84</color>
+    <color name="warningShine">#F7C858</color>
+    <color name="errorShine">#FF4E5C</color>
+    <color name="infoShine">#28DAC2</color>
+    <color name="actionSuccessShine">#1B8C70</color>
+    <color name="actionWarningShine">#FF7200</color>
+    <color name="actionErrorShine">#890916</color>
+    <color name="actionInfoShine">#235379</color>
+</resources>
