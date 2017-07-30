@@ -39,14 +39,16 @@ class LGSnackbarPresenter {
 
     public void show() {
         WindowManager.LayoutParams layoutParams = createDefaultLayoutParams(WindowManager.LayoutParams.TYPE_TOAST, null);
-        windowManager.addView(new FrameLayout(appplicationContext) {
+        FrameLayout rootFrame = new FrameLayout(appplicationContext) {
             @Override
             protected void onAttachedToWindow() {
                 super.onAttachedToWindow();
                 onRootViewAvailable(this);
             }
 
-        }, layoutParams);
+        };
+        rootFrame.setContentDescription("LGSnackbar");
+        windowManager.addView(rootFrame, layoutParams);
     }
 
     private void onRootViewAvailable(final FrameLayout rootView) {

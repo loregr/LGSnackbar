@@ -34,7 +34,7 @@ In your app/build.gradle
 
 ```groovy
 dependencies {
-  compile 'com.github.loregr:lgsnackbar:1.0.1'
+  compile 'com.github.loregr:lgsnackbar:1.0.2'
 }
 ```
 
